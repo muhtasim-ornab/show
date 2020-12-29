@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Only</title>
+
+    <style type="text/css">
+    #here{
+        text-align: center;
+        margin: 200px 40px auto 40px;
+        border: 2px dotted black;
+        color: orangered;
+    }
+    
+    #here:hover{
+        color: wheat;
+        background-color: orangered;
+        border: 2px dotted black;
+    }
+    </style>
+
+    <script>
+        function myRun(){
+           document.getElementById("here").innerHTML = "Thank You";
+        }
+    </script>
+</head>
+<body>
+    <h1 onclick="myRun();" id="here"> 
+        I Gave a Github Link to Run My Portfolio Project in that Text File.
+    </h1>
+</body>
+</html>
